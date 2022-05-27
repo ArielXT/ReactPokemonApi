@@ -1,0 +1,49 @@
+.Rotomdex {
+    background-image: url("../../rotomdex.png");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    color: white;
+    font-family:monospace;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 2em;
+}
+
+.container>div>h4 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container div {
+    width: 20%;
+    text-align: center;
+    border: solid 5px #000;
+    margin: 10px;
+    background: rgba(0,0,0,0.7);
+}
+
+.dropdown {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    border-radius: 4px;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+}
